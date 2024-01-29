@@ -14,17 +14,25 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
+    background-image: url('/some_files/1614783229_126-p-serie-foni-dlya-saita-153.jpg');
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fef8f8;
+    max-width: 3000px;
 }
 .header{
     padding-bottom: 50px;
 }
 .container{
     max-width: 1600px;
-    
+    background-color: blue;
+ 
 }
 .first{
     padding-bottom: 30px;
-
+    background-color:#2A2E36;
+    width: 30%;
+    float: left;
+    color: white;
 }
 .me{
     position: relative;
@@ -46,9 +54,7 @@ ul {
     padding-left: 10px;
 }
 
-.container{
-    background-color: blue;
-}
+
 
 .contacts li{
     /* остальные стили */
@@ -100,12 +106,6 @@ ul {
 }
 
 
-.first{
-    background-color:#2A2E36;
-    width: 30%;
-    float: left;
-    color: white;
-}
 .me {
     max-width: 100%; /* Устанавливаем максимальную ширину изображения равной ширине блока */
 
@@ -219,11 +219,11 @@ ul {
   padding-top: 30px;
 }
 .speciality{
-    font-size: 12px;
+    font-size: 30px;
     background-color: #2A2E36;
     color: orange;
     margin-left: 30px;
-    padding: 20px;
+    
     margin-top: 55px;
 }
 .speciality h2{
@@ -231,22 +231,18 @@ ul {
 }
 .description{
     background-color: orange;
-    padding-left: 50px;
-    color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-size: 15px;
+    color: #000000;
+    padding: 10px;
+    padding-left: 50px;
 }
 * {
     box-sizing: border-box;
   }
-  
-  body {
-    background-image: url('/some_files/1614783229_126-p-serie-foni-dlya-saita-153.jpg');
-    font-family: 'Noto Sans JP', sans-serif;
-    background-color: #fef8f8;
-    max-width: 3000px;
-  }
+
 .work_place{
     padding-left: 50px;
  
@@ -281,11 +277,7 @@ ul {
   --surface-color: #fff;
   --curve: 40;
 }
-.description {
-    font-size: 15px;
-    color: #000000;
-    padding: 10px;
-}
+
 
 
 .projects{
