@@ -14,7 +14,7 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background-image: url('/some_files/1614783229_126-p-serie-foni-dlya-saita-153.jpg');
+    background-image: url('some_files/1614783229_126-p-serie-foni-dlya-saita-153.jpg');
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #fef8f8;
     max-width: 3000px;
