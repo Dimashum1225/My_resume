@@ -127,6 +127,10 @@ ul {
 .Education ul{
     padding: 10px;
 }
+.courses li{
+    padding: 5px;
+    
+}
 .courses h2{
     color: orange;
     text-align: right;
@@ -351,4 +355,13 @@ ul {
     .first, .second {
         width: 100%; /* Занимает всю доступную ширину */
     }
+}
+@media only screen and (max-width: 700px) {
+    /* Устанавливаем направление гибкого контейнера на колонки */
+.line{
+    height: 800px;
+}
+.speciality{
+    font-size: 15px;
+}
 }
