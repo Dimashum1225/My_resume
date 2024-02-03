@@ -338,3 +338,17 @@ ul {
   .card:hover .card-content {
     transform: translateY(0);
   }
+
+  /* Медиа-запрос для экранов с шириной меньше или равной 1000px */
+@media only screen and (max-width: 1000px) {
+    /* Устанавливаем направление гибкого контейнера на колонки */
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Отдельные стили для первого и второго контейнеров */
+    .first, .second {
+        width: 100%; /* Занимает всю доступную ширину */
+    }
+}
