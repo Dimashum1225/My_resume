@@ -114,6 +114,15 @@ ul {
     padding-right: 10px;
 }
 
+.div_image {
+    display: flex; /* Используем flexbox для выравнивания по центру */
+    justify-content: center; /* Выравниваем по горизонтали по центру */
+    align-items: center; /* Выравниваем по вертикали по центру */
+}
+
+.div_image img {
+    border: 2px solid black; /* Устанавливаем рамку вокруг изображения толщиной 2px и цвета черный */
+}
 
 .me {
     max-width: 100%; /* Устанавливаем максимальную ширину изображения равной ширине блока */
@@ -233,8 +242,8 @@ ul {
 }
 .speciality{
     font-size: 30px;
-    background-color: #2A2E36;
-    color: orange;
+    /* background-color: #2A2E36; */
+    color: rgb(0, 0, 0);
     margin-left: 30px;
     
     margin-top: 55px;
